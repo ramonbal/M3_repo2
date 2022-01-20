@@ -1,0 +1,27 @@
+Building MLP model...
+
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+first (Reshape)              (None, 3072)              0         
+_________________________________________________________________
+second (Dense)               (None, 2048)              6293504   
+_________________________________________________________________
+dense (Dense)                (None, 8)                 16392     
+=================================================================
+Total params: 6,309,896
+Trainable params: 6,309,896
+Non-trainable params: 0
+_________________________________________________________________
+None
+Done!
+
+Start training...
+
+Found 1881 images belonging to 8 classes.
+Found 807 images belonging to 8 classes.
+Done!
+
+Saving the model into /home/ramon/work/mcv3/my_first_mlp.h5 
+
